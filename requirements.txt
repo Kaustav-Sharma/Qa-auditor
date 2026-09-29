@@ -2,4 +2,3 @@ streamlit
 pydub
 groq
 extra-streamlit-components
-pyaudioop
