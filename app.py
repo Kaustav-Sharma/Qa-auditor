@@ -10,7 +10,7 @@ st.set_page_config(page_title="Call QA Auditor", layout="wide")
 # Initialize Cookie Manager for Scenario B (Browser Cookies)
 cookie_manager = stx.CookieManager()
 
-st.title("🎙️ AI Call Center QA Auditor")
+st.title("🎙️ AI QA Auditor")
 st.caption("Upload stereo audio to generate a timestamped transcript, emotion tags, and an automated QA Scorecard.")
 
 with st.sidebar:
