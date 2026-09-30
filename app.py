@@ -48,9 +48,9 @@ def process_channel(audio_segment, client, channel_name):
     response = client.audio.transcriptions.create(
         file=(buffer.name, buffer.read()),
         model="whisper-large-v3",
-        prompt="Namaste, main Hinglish mein baat kar raha hoon.",
+        prompt="you are an expert call transcriber, transcribe calls perfectly",
         language="hi",
-        temperature=0.0,
+        temperature=0.1,
         response_format="verbose_json"
     )
     
