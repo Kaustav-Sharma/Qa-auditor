@@ -141,6 +141,7 @@ def generate_scorecard(tagged_transcript, client):
     - Empathy and Sympathy (Param 8): Do not deduct marks just because the agent failed to use specific empathetic phrases. Only deduct marks if the agent actively misbehaves, is dismissive, or is rude to the customer.
     - Probing (Param 10): Asking specific, necessary questions. Only deduct marks if probing was clearly required to resolve the issue and the agent completely failed to ask.
     - Interruption & Assurance (Param 12): Assurance means giving the customer a timeline or guarantee of when something will happen. Deduct marks if the situation called for a timeline or guarantee and the agent failed to provide one.
+    - Closing Protocol (Param 15): The agent MUST ask if there is anything else they can assist the customer with, AND they MUST say "thank you" (or a direct equivalent) at the very end of the call. Deduct marks if either of these two elements is missing.
 
     RUBRIC & ALLOWED SCORES:
     1. Opening Protocol followed (Allowed Marks: 0 or 3)
